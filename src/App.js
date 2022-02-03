@@ -4,7 +4,7 @@ import Card from "./components/Card";
 function App() {
     return (
         <div>
-            <Card/>
+            <Card inside={{title: 'Title', description: 'lorem ipsum kek cheburek'}}/>
         </div>
     );
 }
