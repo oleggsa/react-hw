@@ -4,6 +4,8 @@ import Definitions from "./components/Definitions";
 import Card from "./components/Card";
 import Progress from "./components/Progress";
 import Alert from "./components/Alert";
+import ListGroup from "./components/ListGroup";
+
 
 
 function App() {
@@ -18,6 +20,10 @@ function App() {
             <Progress percentage={40} />
             <br/>
             <Alert type="warning" text="what is love?" />
+            <ListGroup>
+                <p>one</p>
+                <p>two</p>
+            </ListGroup>
         </div>
     );
 }
