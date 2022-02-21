@@ -5,6 +5,7 @@ import Card from "./components/Card";
 import Progress from "./components/Progress";
 import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
+import BtnGroup from "./components/BtnGroup";
 
 
 
@@ -24,6 +25,7 @@ function App() {
                 <p>one</p>
                 <p>two</p>
             </ListGroup>
+            <BtnGroup/>
         </div>
     );
 }
